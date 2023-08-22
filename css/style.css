@@ -67,6 +67,29 @@
     margin-bottom: 10px;
   }
   
+    /* Pseudo-classes ------------------ */
+
+    /*pseudo classes are part of our base style*/
+  
+    a:link {
+        color: rgb(255, 169, 73);
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: lightblue;
+      }
+      
+      a:hover {
+        color: rgba(255, 169, 73, .4);
+      }
+      
+      a:active {
+        color: lightcoral;
+      }
+      
+      /*the above styles give styles to our anchor elements. they outline
+      what will happen when we visit/hover or click on the links.*/
   
 
   
