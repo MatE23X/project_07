@@ -92,5 +92,73 @@
       what will happen when we visit/hover or click on the links.*/
   
 
-  
-  
+    /* Main Styles --------------------- */
+      .main-header {
+        padding-top: 170px;
+        height: 850px;
+        background: linear-gradient(#ffa949,transparent 90%),
+                    linear-gradient(0deg, #fff, transparent),
+                    #ffa949 url('../img/mountains.jpg') no-repeat center;
+        background-size:cover;
+        color: white; /*text-color*/
+        
+      }
+      /*more on linear gradients soon*/
+      /*but here we can see that we have to linear gradients with 90%, 10%.
+      and a background image with no repeat center to reset the default*/
+
+
+      .title {
+        font-size: 1.625rem; /* 26px/16px */
+        letter-spacing: .065em;
+        font-weight: 200;
+        border-bottom: 2px solid; /*this is where the line comes from*/
+        padding-bottom: 10px;
+        
+      }
+      /*why didn't we use margin-bottom? that is because the line beneath it is
+      a border*/
+
+      .intro {
+        font-size: 1.25em; /* 20px/16px */
+        line-height: 1.6; 
+        color: initial;
+      }
+      .primary-content,
+  .main-header,
+  .main-footer {
+    text-align: center;
+  }
+  primary-content {
+    padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+/*the padding are very apparent green boxes above and below the contents 
+in our primary and secondary content classes*/
+
+.callout { /*this is the class name for the anchor elements*/
+    font-size: 1.25em;
+    border-bottom: 3px solid;
+    padding: 0 9px 3px; /*top padding is 0, right is 9, bottom is 3, left is 9.*/
+    margin-top: 20px;
+    display: inline-block;/*padding top and bottom works if only we specify this*/
+  }
+  .main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 10px solid #ffa949;
+  }
+  /*we used text align to replace left and right padding, now we've given top
+  and bottom padding. Footer looks good*/
+
+  .t-border {
+    border-top: 2px solid #dfe2e6;
+  }
+  /*use of mutiple names for classes*/
+  /*here we specified a top border by using one of the class names*/
